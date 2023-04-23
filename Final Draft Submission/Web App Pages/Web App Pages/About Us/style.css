@@ -1,0 +1,170 @@
+body
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: "Comic Sans MS", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+/*This area covers the navbar style section*/
+#NavIcon{
+  width: 40px;
+  height: 30px;
+}
+.navbar {
+  text-transform: uppercase;
+  background: #b54040;
+  border-bottom: 5px solid #1d71b9;
+  border-radius: 4px;
+}
+.nav-link{
+  color: #db8916;
+}
+.navbar-toggler{
+  background-color: #1d71b9;
+}
+.dropdown-menu{
+  background-color: #db8916;
+}
+
+
+#signInBtn{
+  color: white;
+  border-radius: 7px;
+  background: #1d71b9;
+  margin-left: auto;
+  border: 3px solid black;
+}
+#signUpBtn{
+  background: #1d71b9;
+  color: white;
+  border-radius: 7px;
+  border: 3px solid black;
+}
+
+.btn :hover{
+  color: red !important;
+}
+
+/*this area covers the jumbotron aka heroContainer style */
+#heroContainer{
+  padding-top: 5rem;
+  font-size: 25px;
+  background-image: url("../images/vecteezy_pop-art-background-comic-halftone-dots-cartoon-vector_8241533_605/backgroundImg.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family:Arial, Helvetica, sans-serif;
+  border: 5px solid black;
+}
+
+#aboutInfo{
+  border: 5px black solid;
+  background: linear-gradient(#2e88c4, #1d71b9);
+  margin-top: 1rem;
+}
+
+#organizerImg{
+  border: 5px solid black;
+  background: url(../images/vecteezy_flat-comic-style-halftone-background_11150551_90/redBack.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 1rem;
+}
+/*this is where all the boxes and bubbles styles will be*/
+.box{
+    margin:25px;
+    width:400px;
+    height:250px;
+    background-color: #fff;
+    border: solid 10px black;
+    border-color: black;
+    float:right;  
+}
+
+.box1{
+  text-align: center;
+  color:white;
+  background-image: url(back.jpg);
+  background-position: center;
+  background-size: cover;
+  border-width: 6px 8px 6px 10px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
+
+.box2{
+  width:450px;
+  border-width: 6px 8px 6px 10px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+  text-align: center;
+}
+
+.box3{
+  border-width: 6px 8px 6px 10px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+
+.box4{
+  width:400px;
+  border-width: 6px 8px 6px 10px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+  float:left;
+}
+
+.box5{
+  width:400px;
+  border-width: 6px 8px 6px 10px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+  float:left;
+}
+
+.box6{
+  border-width: 6px 8px 6px 10px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+
+.box7{
+  border-width: 6px 8px 6px 10px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(-1deg);
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff9500;
+  font-size: large;
+}
+/*this area covers the look of the reviews*/
+#reviewRow{
+  background: linear-gradient(180deg, #db8916, #1d71b9);
+  border: 5px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 1rem;
+}
+
+footer{
+    margin-top: auto;
+    background-color: rgb(255, 118, 19);
+    color: white;
+    width: 100%;
+    height: 2.2rem;
+    border: 5px solid black;
+    border-radius: 3px; 
+  }
+  

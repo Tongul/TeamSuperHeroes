@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- Bootstrap Font Icon CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+      <link rel = "stylesheet" href="style.css">
+      <link rel = "shortcut icon" type = "x-icon" href="../images/superIcon.png">
+    <title>Mag Comic Expo</title>
+</head>
+<body>
+
+     <!--This will control the navbar-->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <img class="d-inline-block align-top" src="../images/superIcon.png" id="NavIcon">
+    <a class="navbar-brand" href="../Home page V2(current)/index.html">Mag Expo</a>  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#superNav" aria-controls="superNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="bi bi-caret-down-fill"></i></span>
+    </button>    
+    <div class="collapse navbar-collapse" id = "superNav">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="../Home page V2(current)/index.html">Home</a>
+        <a class="nav-link" href="blogPage.html">Blog</a>
+        <a class="nav-link" href="../Contact Page/contact.html">Contact</a>
+        <a class="nav-link" href="../Map/map.html">Map/Reserve</a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-primary" href= "../Gallery(current)/gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item text-primary" href="../About Us/about.html">About Us</a></li>
+              <li><a class="dropdown-item text-primary" href="../Partners/partner.html">Partners</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <a href="../signInPg/signIn.html" class="btn" id = "signInBtn">Sign In</a>
+            <a href="../signUpPg/signUp.html" class="btn" id = "signUpBtn">Sign Up</a>
+    </div>
+  </div>
+  </nav>
+
+  
+  <div class = "bg-image">
+  <!--This will hold the main text content-->
+     <div class = "container-fluid text-center">
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+           <p><a href="#">Link</a></p> <!-- Perhaps this can lead to a previous entry or something similar-->
+            <p><a href="#">Link</a></p>
+            <p><a href="#">Link</a></p>
+           <p>Or a dropdown list to previous entries can go here as well.</p>
+           <label>Older Entries</label>
+         <select id="oldPosts">
+          <label>Older Entries</label>
+          <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+         </select>
+        </div>
+        <div class = "col-sm-8 text-left">
+          <article>
+            <header>
+              <h1 class = "fw-bolder mb-1" style="color: #1d71b9;">Blog</h1>
+              <h4 class = "mb-1" style="color: #1d71b9;">Month/day/year</h4>
+            </header>
+            <br>
+            <section class="mb-5" id = "paraText">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, 
+                 sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </p>
+              <hr>
+              <h3>Testing, testing</h3>
+              <p>Just some random text above to give the general look of how it would look.</p>
+            </section>
+          </article>
+        </div>
+        <div class="col-sm-2 sidenav">
+          <p> Ads or more links can go here.</p>
+          <p>Or just a button to make a blog entry</p>
+          <a href="../backendTest/blogEntryTest.html" class="btn" id = "signUpBtn">Make an Entry</a>
+        </div>
+      </div>
+     </div>
+    </div>
+    
+
+    <!--This will contain the footer info at the bottom of the page-->
+    <footer class="container-fluid text-center">
+      <a href="#">Social media links maybe.</a>
+    </footer>
+  </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
