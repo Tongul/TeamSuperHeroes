@@ -1,0 +1,89 @@
+body
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#NavIcon{
+  width: 40px;
+  height: 30px;
+}
+.navbar {
+  text-transform: uppercase;
+  background: #b54040;
+  border-bottom: 5px solid #1d71b9;
+  border-radius: 4px;
+}
+.nav-link{
+  color: #db8916;
+}
+
+.navbar-toggler{
+  background-color: #1d71b9;
+}
+.dropdown-menu{
+  background-color: #db8916;
+}
+
+#signUpBtn{
+  color: white;
+  border-radius: 7px;
+  background: #1d71b9;
+  border: 3px solid black;
+}
+
+#signInBtn{
+  color: white;
+  border-radius: 7px;
+  background: #1d71b9;
+  margin-left: auto;
+  border: 3px solid black;
+}
+
+
+#signIcon{
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+#signInContainer{
+  border: 5px solid black;
+  border-radius: 10px;
+  color: white;
+  margin-top: 7.2rem;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#1d71b9, #16558c);
+}
+
+#submitBtn{
+  background: #b54040;
+}
+
+a{
+  color: white !important;
+}
+
+
+footer{
+    background-color: rgb(255, 118, 19);
+    color: white;
+    margin-top: auto;
+    height: 2.2rem;
+    border: 5px solid black;
+    border-radius: 3px; 
+  }
+  

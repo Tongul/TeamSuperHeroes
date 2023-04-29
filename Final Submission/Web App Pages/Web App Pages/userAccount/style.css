@@ -1,0 +1,86 @@
+body
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+#NavIcon{
+  width: 40px;
+  height: 30px;
+}
+.navbar {
+  text-transform: uppercase;
+  background: #b54040;
+  border-bottom: 5px solid #1d71b9;
+  border-radius: 4px;
+}
+.nav-link{
+  color: #db8916;
+}
+
+.navbar-toggler{
+  background-color: #1d71b9;
+}
+.dropdown-menu{
+  background-color: #db8916;
+}
+
+#logOutBtn{
+  color: white;
+  border-radius: 7px;
+  background: #1d71b9;
+  border: 3px solid black;
+}
+
+#signInBtn{
+  color: white;
+  border-radius: 7px;
+  background: #1d71b9;
+  margin-left: auto;
+  border: 3px solid black;
+}
+
+.buton{
+  background-color: #b54040;
+  transition-duration: .5s;
+  padding: 15px 30px;
+  border-radius: 50px;
+
+}
+.buton:hover{
+  background-color: #1d71b9;
+  text-decoration: none;
+}
+
+.col{
+  padding:10px; 
+  top:0px; 
+  right: 0; 
+  left: 0; 
+  height: 1200px;
+  float: right;
+  background: linear-gradient(#1d71b9, #db8916);
+  width: 50%;
+  height: 50%;
+  float:inline-start;
+}
+
+
+footer{
+  margin-top: auto;
+    background-color: rgb(255, 118, 19);
+    color: white;
+    width: 100%;
+    height: 2.2rem;
+    border: 5px solid black;
+    border-radius: 3px; 
+  }
+  

@@ -1,0 +1,77 @@
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    /*Background image courtesy of Vecteezy. Image Author Wahyu Kurnia.
+     https://www.vecteezy.com/vector-art/8241533-pop-art-background-comic-halftone-dots-cartoon-vector-illustration*/
+    background: url(../images/vecteezy_pop-art-background-comic-halftone-dots-cartoon-vector_8241533_605/backgroundImg.jpg);
+    backdrop-filter: blur(4px);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+}
+/*This sections covers all the navbar styles */
+#NavIcon{
+  width: 40px;
+  height: 30px;
+}
+.navbar{
+   text-transform: uppercase;
+  background: #b54040;
+  border-bottom: 5px solid #1d71b9;
+ 
+}
+.nav-link{
+  color: #db8916;
+}
+.navbar-toggler{
+  background-color: #1d71b9;
+}
+.dropdown-menu{
+  background-color: #db8916;
+}
+#signUpBtn{
+  color: white;
+  border-radius: 7px;
+  background: #1d71b9;
+  border: 3px solid black;
+}
+
+#signInBtn{
+  color: white;
+  border-radius: 7px;
+  background: #1d71b9;
+  margin-left: auto;
+  border: 3px solid black;
+}
+/*This section covers what is in the main body of the html file*/
+#paraText{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  border: #1d71b9 5px solid;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.col-sm-2{
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  border: red 3px solid;
+  color: white;
+  height: 30%;
+}
+/*this is the footer at the bottom of the page*/
+footer{
+  border: 5px solid black;
+  background-color: #db8916;
+  color: white;
+  margin-top: auto;
+  height: 2.2rem;
+}
+
